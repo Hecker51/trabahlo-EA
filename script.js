@@ -144,6 +144,13 @@ document.addEventListener("DOMContentLoaded", () => {
       resumo:
         "Estado socialista, sofreu tensões internas com o movimento Solidariedade.",
     },
+      {
+      name: "Cuba",
+      x: 368,
+      y: 335,
+      resumo:
+        "Aliou-se à União Soviética após a Revolução de 1959. Foi o centro da Crise dos Mísseis em 1962, quase levando o mundo à guerra nuclear. Tornou-se símbolo do comunismo na América Latina..",
+    },
   ];
 
   countries.forEach((pais) => {
