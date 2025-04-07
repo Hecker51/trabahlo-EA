@@ -1,0 +1,55 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: white;
+color: rgb(0, 0, 0);
+}
+
+#map-container {
+  position: relative;
+  width: fit-content;
+}
+
+#map{
+ border-style: solid;
+  border-width: 10  px;
+border-color: #1d2735;
+}
+
+
+#botoes-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.pais-botao {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.pais-botao:hover {
+  background-color: red;
+  opacity: 1;
+}
+
+#descricao {
+  margin-top: 20px;
+  padding: 10px;
+  font-family: sans-serif;
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  width: 400px;
+}
+
+.footer{
+position: fixed;
+bottom: 0;
+left: 0;
+color: black;
+}
